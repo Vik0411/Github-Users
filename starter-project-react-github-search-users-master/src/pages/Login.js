@@ -7,10 +7,9 @@ const Login = () => {
   return (
     <Wrapper>
       <div className='container'>
-      <img src={loginImg} alt="github user">
+      <img src={loginImg} alt="github user"></img>
     <h1>github user</h1>
     <button className='btn' onClick={loginWithRedirect}>login / sign up</button>
-      </img>
       </div>
     </Wrapper>
   )
